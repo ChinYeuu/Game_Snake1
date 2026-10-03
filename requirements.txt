@@ -1,0 +1,10 @@
+# Requirements for Snake Deluxe & AI Master
+# Fully compatible with Python 3.10+ up to Python 3.14+
+
+# On Python 3.14+, pygame-ce provides official prebuilt wheels.
+# Both libraries provide the identical 'import pygame' API.
+pygame-ce>=2.5.0; python_version >= "3.14"
+pygame>=2.5.0; python_version < "3.14"
+
+# Automated Testing Framework
+pytest>=7.4.0
